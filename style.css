@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(195, 195, 248);
+    background-image: url('./img/fundoouro.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.nomedoapp {
+    margin: 0;
+    font-size: 50px;
+    color: rgb(255, 255, 255, 0.01);
+    background-image: url("./img/pa.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -40px;
+}
+
+.titulo {
+    background-color: rgba(250, 250, 250, 0.911);
+    background-image: url('./img/art2.jpg');
+    border-radius: 1em;
+}
+
+.card-title,
+.card-text,
+.card-subtitle mb-2 text-muted {
+    color: rgb(23, 23, 24);
+    background-color: rgba(255, 228, 196, 0.432);
+    border-radius: 1rem;
+}
+
+.videos {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-top: 2rem;
+    overflow: auto;
+}
+
+.card-view {
+    display: flex;
+    margin: 1rem;
+    box-sizing: 1rem;
+}
+
+
+.card-bodY {
+    background-image: url('./img/art2.jpg');
+}
+
+
+.planoDeposito {
+    margin-top: 5rem;
+}
+
+.img {
+    width: 800px;
+    height: 400px;
+
+}
+
+.carousel-item {
+    top: 4rem;
+}
+
+
+
+
+
+
+.social-icons{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+}
+
+.social-icons li{
+    margin:0 20px;
+}
+
+.social-icons li a{
+    border: 5px solid rgba(137, 64, 221, 0.274);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    border-right: none;
+    border-top: none;
+    transition: 0.3s ease;
+}
+
+.social-icons li a:hover{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    transform: rotate(360deg);
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0);
+}
